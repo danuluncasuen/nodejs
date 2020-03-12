@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Index</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <style>
+            td {
+                padding: 5px;
+                border: solid 1px black;
+                align-content: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Rest service application</h1>
+        <button id="add">Add new user</button>
+        <div id="users-div">
+            <table id="users-placeholder">
+                <thead>
+                    <td><h4>Nr.</h4></td>
+                    <td><h4>Info</h4></td>
+                    <td><h4>Update</h4></td>
+                    <td><h4>Delete</h4></td>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+
+        <form action="/" method="post" enctype="multipart/form-data">
+            <input type="file" name="image" />
+            <input type="submit" name="button" value="Upload">
+        </form>
+    <script src="/js/users.js"></script>
+    </body>
+</html>
